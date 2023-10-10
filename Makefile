@@ -13,3 +13,7 @@ install:
 	make
 	copy hello.out "/Program Files (x86)/hello"
 
+clean:
+	for %i in (*.out) do del %i
+	for %i in (*.o) do del %i
+	for %i in (src\*.o) do del %i

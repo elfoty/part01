@@ -8,8 +8,13 @@ typedef struct TOKEN_STRUCT
         TOKEN_EQUALS,
         TOKEN_STRING,
         TOKEN_PV,
-        TOKEN_PE,
-        TOKEN_PD
+        TOKEN_AP,
+        TOKEN_FP,
+        TOKEN_AC,
+        TOKEN_FC,
+        TOKEN_MAIS,
+        TOKEN_MENOS,
+        TOKEN_VIRG
     } type;
     char* value;
 } token_T;
