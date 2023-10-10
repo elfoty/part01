@@ -1,0 +1,3 @@
+C:/Users/Elfoty/CLionProjects/part01/cmake-build-debug/CMakeFiles/part01.dir
+C:/Users/Elfoty/CLionProjects/part01/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Elfoty/CLionProjects/part01/cmake-build-debug/CMakeFiles/rebuild_cache.dir
