@@ -13,6 +13,8 @@ lexer_T* init_lexer(char* contents);
 
 void lexer_avanca(lexer_T* lexer);
 
+void lexer_retorna(lexer_T* lexer);
+
 void lexer_pulaws(lexer_T* lexer);
 
 token_T* lexer_prox_token(lexer_T* lexer);
@@ -20,6 +22,8 @@ token_T* lexer_prox_token(lexer_T* lexer);
 token_T* lexer_coleta_string(lexer_T* lexer);
 
 token_T* lexer_coleta_id(lexer_T* lexer);
+
+token_T* lexer_coleta_digito(lexer_T* lexer);
 
 token_T* lexer_avanca_com_token(lexer_T* lexer, token_T* token);
 
